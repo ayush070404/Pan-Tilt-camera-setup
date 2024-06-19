@@ -1,4 +1,8 @@
+#This code enables you to track an object based on its colour by locking on it using trackbars
 
+
+
+# Servo setup part
 import pigpio
 from time import sleep
 # Start the pigpiod daemon
@@ -58,12 +62,9 @@ class Servo():
 
 
 if __name__ =='__main__':
-    '''from vilib import Vilib
-    Vilib.camera_start(vflip=True,hflip=True) 
-    Vilib.display(local=True,web=True)'''
 
-    pan = Servo(pin=23, max_angle=60, min_angle=-60)
-    tilt = Servo(pin=18, max_angle=60, min_angle=-60)
+    pan = Servo(pin=23, max_angle=60, min_angle=-60)   # for turning camera left/right
+    tilt = Servo(pin=18, max_angle=60, min_angle=-60)  # for moving camera up/down
     panAngle = 0
     tiltAngle = 0
     pan.set_angle(panAngle)
@@ -86,10 +87,10 @@ if __name__ =='__main__':
             tilt.set_angle(angle)
             sleep(.01)
         sleep(.5)
+# Servo setup completes here
 
 
-
-
+# code to implement object tracking anf lockin fetures
         import cv2
         from picamera2 import Picamera2
         import time
