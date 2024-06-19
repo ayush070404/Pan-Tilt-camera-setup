@@ -1,5 +1,6 @@
 # **Pan-Tilt-camera-setup**
 
+https://github.com/ayush070404/Pan-Tilt-camera-setup/assets/173227463/8c376ca7-7468-4638-b614-01b1605eb136
 
 Developing 3D printable design and implementing pan/ tilt setup for object tracking camera system from scratch
 
