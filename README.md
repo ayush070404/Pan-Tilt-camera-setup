@@ -1,5 +1,5 @@
 # **Pan-Tilt-camera-setup**
-developing 3D printable design and implementing pan/ tilt setup for object tracking camera system from scratch
+Developing 3D printable design and implementing pan/ tilt setup for object tracking camera system from scratch
 
 
 Creating a 3D printable design and implementing a pan/tilt setup for an object tracking camera system from scratch involves several steps. The process includes 3D modeling, 3D printing, assembly, and programming the tracking system. Here’s a comprehensive guide to achieving this:
